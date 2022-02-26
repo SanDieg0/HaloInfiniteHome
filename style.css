@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alumni Sans', sans-serif;
+    letter-spacing: 2px;
+
+}
+body{
+    box-sizing: border-box;
+    
+    background-image: url(./icons/halo-infinite-1080p-wallpaper.jpg);
+    background-size: 105%;
+}
+
+.item{
+    list-style: none;
+}
+.item a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.726);
+    font-weight: 500;
+}
+.icon{
+    width: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100vw;
+}
+.header-left{
+    margin: 40px 0 30px 40px;
+    width: 50%;
+}
+.header-left ul{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.header-left ul li:nth-child(2){
+    border: 6px solid rgba(245, 245, 245, 0.726);
+}
+header .header-left .item a:hover{
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgba(14, 14, 14, 0.637);
+}
+header .header-left .item a{
+    padding: 20px 10px;
+}
+
+.header-left ul li{
+    display: inline;
+    margin: 0 5px;
+    padding: 3px 20px;
+    border: 2px solid rgba(245, 245, 245, 0.726);
+}
+
+header .header-left .boton-b{
+    width: 25px;
+    height: 20px;
+}
+
+.header-right{
+    margin: 40px 40px 30px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-right figure{
+    display: inline;
+    margin: 0 15px;
+}
+.header-right div span{
+    display: inline;
+    margin: 0 2px;
+    font-style: italic;
+    color: rgba(245, 245, 245, 0.726);
+    letter-spacing: 1px;
+
+}
+.header-right div .luis{
+    color: gold;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+
+
+main{
+    display: block;
+    align-content: space-between;
+    width: 100vw;
+}
+
+.main-left{
+    display: inline-block;
+    margin: 100px 40px 0 100px;
+}
+.main-right{
+    width: 500px;
+    display: inline-block;
+    margin: 40px 40px 0 400px;
+}
+.main-left ul{
+    box-sizing: border-box;
+}
+
+.main-left ul .item{
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding-left: 6px;
+        
+}
+.main-left ul .item:last-child{
+    margin-bottom: 40px;
+}
+
+.main-left ul .item:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;    
+}
+.main-left ul .item a{
+    display: block;
+    margin-right: 5px;
+}
+.main-left ul .item a:hover{
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgba(14, 14, 14, 0.637);
+}
+.main-left span{
+    color: rgba(245, 245, 245, 0.726);
+    padding-left: 6px;
+    font-style: italic;
+}
+.main-left span:hover{
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgba(1, 1, 1, 0.726);
+}
+
+.main-right__top__container{
+    
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-right: 0.5px solid whitesmoke; 
+    border-left: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 88px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#00000086, #00000057);
+}
+.main-right__top__container_fondo{
+    background-image: linear-gradient(to right, rgba(1,1,1,0.7), rgba(1,1,1,0.3), rgba(1, 1, 1, 0.11)), url(./icons/temporada-1-Halo-Infinite.jpg);
+    background-size: 100%;
+    opacity: 0.5;
+    display: inline-block;
+    width: 200px;
+    margin-left: -10px;
+}
+.main-right__top__30{
+    width: 55px;
+    color: rgba(245, 245, 245, 0.726);
+    border: 2px solid whitesmoke;
+    padding: 7px;
+    font-weight: 500;
+    font-size: larger; 
+    text-align: center;
+    margin: 21px 72px 21px 72px;
+}
+.main-right__top__otros{
+    color: rgba(245, 245, 245, 0.726);
+    text-align: left;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px;
+    width: 290px;
+    margin-left: -20px;
+}
+progress[value] {
+    width: 250px;
+    height: 10px;
+    border: 1px solid whitesmoke;
+    margin: 5px 0;
+    display: block;
+  
+    /* Reinicializar estilos */
+  
+    appearance: none;
+    -webkit-appearance: none;
+  
+  }
+progress[value]::-webkit-progress-bar {
+    background-color: rgba(128, 128, 128, 0.63);
+}
+progress[value]::-webkit-progress-value {
+    background-color: rgba(105, 191, 231, 0.596);
+}
+.main-right__top__evento{
+    display: block;
+}
+.asterisco{
+    width: 20px;
+    padding: 3px;
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+}
+.main-right__top__evento p{
+    color: red;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+
+.main-right__center .premium{
+    color: rgba(245, 245, 245, 0.726);
+    text-align: center;
+    font-size: larger;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+.main-right__center div p{
+    background: linear-gradient(#000000a6, #00000083,#00000056, #d3c17252);
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid gold;
+    border-radius: 5px;
+}
+.main-right__center .premium:hover{
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgba(14, 14, 14, 0.637);
+}
+
+
+.main-right__botton__container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.main-right__botton__container .novedades{
+    color: rgba(245, 245, 245, 0.726);
+    font-size: larger;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+
+.main-right__botton_border{
+    width: 500px;
+    height: 250px;
+    box-sizing: content-box;
+    padding: 3px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 6px;
+}
+.main-right__botton__container figure{
+    
+    height: 250px;
+    background-image: linear-gradient(to right, #000000d5, #ffffff15, #000000a1), url(./icons/halo-infinite-mid-season-update.jpg);
+    background-size: 100%;
+    opacity: 0.8;
+    object-fit: fill;
+}
+.main-right__botton__container figure p{
+    position: relative;
+    bottom: -195px;
+    margin: 0 260px 5px 25px;
+    color: rgba(245, 245, 245, 0.726);
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+.puntos{
+    text-align: center;
+    color: rgba(245, 245, 245, 0.726);
+    font-size: small;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: block;
+    background: linear-gradient(to right,#000000a1, #000000a6);
+}
+.footer-right{
+    margin-left: 78%;
+    padding-top: 10px;
+    background: linear-gradient(to right,#ffffff28, #ffffff2f);
+
+}
+.footer-right__primer, .footer-right__segundo, .footer-right__tercero, .footer-right__cuarto{
+    display: inline-block;
+}
+
+.calavera, .div-diego, .figure-diego p, .figure-diego img{
+    display: inline-block;
+}
+.footer-right__primer{
+    box-sizing: border-box;
+    padding: 5px;
+}
+.footer-right__primer .calavera .icon{
+    width: 30px;
+    height: 30px;
+}
+.figure-diego{
+    color: rgba(245, 245, 245, 0.726);
+    box-sizing: border-box;
+    padding: 5px;
+    background: linear-gradient(to right,#000000a1, #000000a6);
+}
+.figure-diego p{
+    text-align: center;
+    align-self: center;
+}
+
+.footer-right__segundo img, .footer-right__tercero img, .footer-right__cuarto img{
+    display: block;
+    color: rgba(245, 245, 245, 0.726);
+}
+
+.footer-right__tercero{
+    color: rgba(245, 245, 245, 0.726);
+}
+.amigo-linea{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 27px;
+}
+
+.footer-right__segundo_border{
+    padding-left: 10px;
+    border-left: 1px solid rgba(245, 245, 245, 0.726);
+}
+.footer-right__tercero_border{
+    padding-left: 10px;
+    border-left: 1px solid rgba(245, 245, 245, 0.726);
+}
+.footer-right__cuarto_border{
+    padding-left: 10px;
+    border-left: 1px solid rgba(245, 245, 245, 0.726);
+}
