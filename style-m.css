@@ -1,0 +1,314 @@
+@media(max-width: 640px){
+    body{
+        box-sizing: border-box;
+        background-image: url(https://wallpapercave.com/wp/wp4014080.png); 
+
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+    header{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100vw;
+}
+.header-left{
+    margin: 5vw 5vw;
+    width: 50%;
+}
+.header-left ul{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.header-left ul li:nth-child(2){
+    border: 4px solid rgba(245, 245, 245, 0.726);
+}
+header .header-left .item a:hover{
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgba(14, 14, 14, 0.637);
+}
+header .header-left .item a{
+    padding: 3px 3px;
+}
+
+.header-left ul li{
+    display: inline;
+    margin: 0 3px;
+    padding: 2px 3px;
+    border: 1px solid rgba(245, 245, 245, 0.726);
+}
+
+header .header-left .boton-b{
+    width: 5vw;
+    height: 4vw;
+}
+
+.header-right{
+    margin: 8vw 8vw 7vw 0;
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-right figure{
+    display: inline;
+    margin: 0 4px;
+}
+.header-right div span{
+    display: inline;
+    margin: 0 2px;
+    font-style: italic;
+    color: rgba(245, 245, 245, 0.726);
+    letter-spacing: 1px;
+
+}
+.header-right div .luis{
+    color: gold;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+
+
+
+
+    .main{
+        display: none !important;
+    }
+    .section-mobile{
+        display: block;
+    }
+    .section-mobile{
+        display: block;
+        width: 100vw;
+    }
+    
+    .main-left-m{
+        display: block;
+        margin-left: 250px;
+    }
+    .main-right-m{
+        width: auto;
+        display: block;
+        margin: 10px 0 0 20px;
+    }
+    .main-left-m ul{
+        box-sizing: border-box;
+    }
+    
+    .main-left-m ul .item{
+        font-size: larger;
+        font-weight: 500;
+        border-bottom: 1px solid white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        padding-left: 6px;
+            
+    }
+    .main-left-m ul .item:last-child{
+        margin-bottom: 10px;
+    }
+    
+    .main-left-m ul .item:hover{
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;    
+    }
+    .main-left-m ul .item a{
+        display: block;
+        margin-right: 5px;
+    }
+    .main-left-m ul .item a:hover{
+        background-color: rgba(245, 245, 245, 0.726);
+        color: rgba(14, 14, 14, 0.637);
+    }
+    .main-left-m span{
+        color: rgb(245, 245, 245);
+        padding-left: 6px;
+        font-style: italic;
+    }
+    .main-left-m span:hover{
+        background-color: rgba(245, 245, 245, 0.726);
+        color: rgba(1, 1, 1, 0.726);
+    }
+    
+    .main-right__top__container-m{
+        
+        border-top: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
+        border-right: 0.5px solid whitesmoke; 
+        border-left: 0.5px solid whitesmoke;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100vw;
+        /*height: ;*/
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right,#00000086, #00000057);
+    }
+    .main-right__top__container_fondo-m{
+        background-image: linear-gradient(to right, rgba(1,1,1,0.7), rgba(1,1,1,0.3), rgba(1, 1, 1, 0.11)), url(./icons/temporada-1-Halo-Infinite.jpg);
+        background-size: 100%;
+        opacity: 0.5;
+        display: inline-block;
+        width: 40vw;
+        /*margin-left: ;*/
+    }
+    .main-right__top__30-m{
+        width: 10vw;
+        color: rgba(245, 245, 245, 0.863);
+        border: 2px solid whitesmoke;
+        padding: 7px;
+        font-weight: 500;
+        font-size: larger; 
+        text-align: center;
+        margin: 21px 72px 21px 72px;
+    }
+    .main-right__top__otros-m{
+        color: rgba(245, 245, 245, 0.842);
+        text-align: left;
+        font-weight: 500;
+        display: inline-block;
+        padding: 2px;
+        width: 58vw;
+        /*margin-left: -5px;*/
+    }
+    progress[value] {
+        width: 50vw;
+        height: 10px;
+        border: 1px solid whitesmoke;
+        margin: 5px 0;
+        display: block;
+      
+        /* Reinicializar estilos */
+      
+        appearance: none;
+        -webkit-appearance: none;
+      
+      }
+    progress[value]::-webkit-progress-bar {
+        background-color: rgba(128, 128, 128, 0.63);
+    }
+    progress[value]::-webkit-progress-value {
+        background-color: rgba(105, 191, 231, 0.596);
+    }
+    .main-right__top__evento-m{
+        display: block;
+    }
+    .asterisco-m{
+        width: 20px;
+        padding: 3px;
+        text-align: center;
+        background-color: red;
+        display: inline-block;
+    }
+    .main-right__top__evento-m p{
+        color: red;
+        font-weight: 300;
+        font-style: italic;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    
+    
+    
+    .main-right__center-m .premium-m{
+        color: rgba(245, 245, 245, 0.726);
+        text-align: center;
+        font-size: larger;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin: 5px 0;
+    }
+    .main-right__center-m div p{
+        background: linear-gradient(#000000a6, #00000083,#00000056, #d3c17252);
+        border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid gold;
+        border-radius: 5px;
+    }
+    .main-right__center-m .premium:hover{
+        background-color: rgba(245, 245, 245, 0.726);
+        color: rgba(14, 14, 14, 0.637);
+    }
+    
+    
+    .main-right__botton__container-m{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+    
+    .main-right__botton__container-m .novedades-m{
+        color: rgba(245, 245, 245, 0.726);
+        font-size: larger;
+        letter-spacing: 3px;
+        margin-top: 15px;
+    }
+    
+    .main-right__botton_border-m{
+        width: 100vw;
+        height: 50vw;
+        box-sizing: content-box;
+        padding: 1px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        border-radius: 6px;
+    }
+    .main-right__botton__container-m figure{
+        
+        height: 50vw;
+        background-image: linear-gradient(to right, #000000d5, #ffffff15, #000000a1), url(./icons/halo-infinite-mid-season-update.jpg);
+        background-size: 100%;
+        opacity: 0.8;
+        object-fit: fill;
+    }
+    .main-right__botton__container-m figure p{
+        position: relative;
+        bottom: -40vw;
+        margin: 0 50vw 10px 10vw;
+        color: rgba(245, 245, 245, 0.726);
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: larger;
+    }
+    .puntos-m{
+        text-align: center;
+        color: rgba(245, 245, 245, 0.726);
+        font-size: small;
+    }
+
+
+
+
+    footer{
+        position: relative;
+        width: 100vw;
+        display: block;
+        background: linear-gradient(to right,#000000a1, #000000a6);
+    }
+
+    .footer-right{
+        margin-left: 30%;
+        padding-top: 10px;
+        background: linear-gradient(to right,#ffffff28, #ffffff2f);
+    
+    }
+}
